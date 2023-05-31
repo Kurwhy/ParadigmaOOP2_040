@@ -31,3 +31,17 @@ public:
 
 
 };
+
+int main() {
+	seseorang* orang;
+	joko a;
+	lia b;
+
+	orang = &a;
+	orang->pesan();
+	orang = &b;
+	//a.seseorang::pesan(); //memanggil method yang berada diclass orang tua
+	//b.seseorang::pesan();
+
+	return 0;
+}
